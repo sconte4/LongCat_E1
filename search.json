@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Palmer Penguins",
-    "section": "",
-    "text": "The goal of palmerpenguins is to provide a great dataset for data exploration & visualization, as an alternative to iris.\nData were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network. The dataset contains data for 344 penguins. There are 3 different species of penguins in this dataset, collected from 3 islands in the Palmer Archipelago, Antarctica.\nData are available by CC-0 license in accordance with the Palmer Station LTER Data Policy and the LTER Data Access Policy for Type I data."
-  },
-  {
-    "objectID": "about.html#palmerpenguins",
-    "href": "about.html#palmerpenguins",
-    "title": "Palmer Penguins",
-    "section": "",
-    "text": "The goal of palmerpenguins is to provide a great dataset for data exploration & visualization, as an alternative to iris.\nData were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network. The dataset contains data for 344 penguins. There are 3 different species of penguins in this dataset, collected from 3 islands in the Palmer Archipelago, Antarctica.\nData are available by CC-0 license in accordance with the Palmer Station LTER Data Policy and the LTER Data Access Policy for Type I data."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Palmer Penguins",
@@ -23,15 +9,29 @@
   {
     "objectID": "analysis.html",
     "href": "analysis.html",
-    "title": "Palmer Penguins",
+    "title": "LongCat",
     "section": "",
-    "text": "You can access data from palmerpenguins programmatically using the Redivis API for R or Python.\n\nRPython\n\n\n\nInstall the redivis-r package:\n\ndevtools::install_github(\"redivis/redivis-r\")\n\nGenerate and set an API token.\nAccess the data:\n\nlibrary(redivis)\n\nuser &lt;- redivis::user(\"datapages\")\ndataset &lt;- user$dataset(\"palmerpenguins\")\ntable &lt;- dataset$table(\"penguins\")\n\n# load table as tidyverse tibble\ndf &lt;- table$to_tibble()\nView documentation\n\n\n\nInstall the redivis-python client library:\n\npip install --upgrade redivis\n\nGenerate and set an API token.\nAccess the data:\n\nimport redivis\n\nuser = redivis.user(\"datapages\")\ndataset = user.dataset(\"palmerpenguins\")\ntable = dataset.table(\"penguins\")\n\n# Load table as a dataframe\ndf = table.to_pandas_dataframe()\nView documentation"
+    "text": "You can access data from LongCat programmatically using the Redivis API for R or Python.\n\nRPython\n\n\n\nInstall the redivis-r package:\n\ndevtools::install_github(\"redivis/redivis-r\")\n\nGenerate and set an API token.\nAccess the data:\n\nlibrary(redivis)\n\nuser &lt;- redivis::user(\"sconte\")\ndataset &lt;- user$dataset(\"LongCat\")\ntable &lt;- dataset$table(\"E1\")\n\n# load table as tidyverse tibble\ndf &lt;- table$to_tibble()\nView documentation\n\n\n\nInstall the redivis-python client library:\n\npip install --upgrade redivis\n\nGenerate and set an API token.\nAccess the data:\n\nimport redivis\n\nuser = redivis.user(\"sconte\")\ndataset = user.dataset(\"LongCat\")\ntable = dataset.table(\"E1\")\n\n# Load table as a dataframe\ndf = table.to_pandas_dataframe()\nView documentation"
   },
   {
     "objectID": "analysis.html#programmatic-access",
     "href": "analysis.html#programmatic-access",
-    "title": "Palmer Penguins",
+    "title": "LongCat",
     "section": "",
-    "text": "You can access data from palmerpenguins programmatically using the Redivis API for R or Python.\n\nRPython\n\n\n\nInstall the redivis-r package:\n\ndevtools::install_github(\"redivis/redivis-r\")\n\nGenerate and set an API token.\nAccess the data:\n\nlibrary(redivis)\n\nuser &lt;- redivis::user(\"datapages\")\ndataset &lt;- user$dataset(\"palmerpenguins\")\ntable &lt;- dataset$table(\"penguins\")\n\n# load table as tidyverse tibble\ndf &lt;- table$to_tibble()\nView documentation\n\n\n\nInstall the redivis-python client library:\n\npip install --upgrade redivis\n\nGenerate and set an API token.\nAccess the data:\n\nimport redivis\n\nuser = redivis.user(\"datapages\")\ndataset = user.dataset(\"palmerpenguins\")\ntable = dataset.table(\"penguins\")\n\n# Load table as a dataframe\ndf = table.to_pandas_dataframe()\nView documentation"
+    "text": "You can access data from LongCat programmatically using the Redivis API for R or Python.\n\nRPython\n\n\n\nInstall the redivis-r package:\n\ndevtools::install_github(\"redivis/redivis-r\")\n\nGenerate and set an API token.\nAccess the data:\n\nlibrary(redivis)\n\nuser &lt;- redivis::user(\"sconte\")\ndataset &lt;- user$dataset(\"LongCat\")\ntable &lt;- dataset$table(\"E1\")\n\n# load table as tidyverse tibble\ndf &lt;- table$to_tibble()\nView documentation\n\n\n\nInstall the redivis-python client library:\n\npip install --upgrade redivis\n\nGenerate and set an API token.\nAccess the data:\n\nimport redivis\n\nuser = redivis.user(\"sconte\")\ndataset = user.dataset(\"LongCat\")\ntable = dataset.table(\"E1\")\n\n# Load table as a dataframe\ndf = table.to_pandas_dataframe()\nView documentation"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "LongCat",
+    "section": "",
+    "text": "The goal of palmerpenguins is to provide a great dataset for data exploration & visualization, as an alternative to iris.\nData were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network. The dataset contains data for 344 penguins. There are 3 different species of penguins in this dataset, collected from 3 islands in the Palmer Archipelago, Antarctica.\nData are available by CC-0 license in accordance with the Palmer Station LTER Data Policy and the LTER Data Access Policy for Type I data."
+  },
+  {
+    "objectID": "about.html#palmerpenguins",
+    "href": "about.html#palmerpenguins",
+    "title": "LongCat",
+    "section": "",
+    "text": "The goal of palmerpenguins is to provide a great dataset for data exploration & visualization, as an alternative to iris.\nData were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network. The dataset contains data for 344 penguins. There are 3 different species of penguins in this dataset, collected from 3 islands in the Palmer Archipelago, Antarctica.\nData are available by CC-0 license in accordance with the Palmer Station LTER Data Policy and the LTER Data Access Policy for Type I data."
   }
 ]

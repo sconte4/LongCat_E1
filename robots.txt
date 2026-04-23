@@ -1,1 +1,1 @@
-Sitemap: https://datapages.github.io/datapage/sitemap.xml
+Sitemap: https://sconte4.github.io/LongCat_E1/sitemap.xml
