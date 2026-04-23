@@ -8,7 +8,7 @@ description: |
 ::: {layout-ncol=2}
 ![Artwork by \@allison_horst](images/ENCoDe_Logo.png)
 
-![](images/LongCat.png)
+![](images/LongCat.jpg)
 :::
 
 {{< include _load-data.qmd >}}
