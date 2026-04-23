@@ -6,7 +6,7 @@ description: |
 ---
 
 ::: {layout-ncol=2}
-![Artwork by \@allison_horst](images/ENCoDe_Logo.png)
+![](images/ENCoDe_Logo.png)
 
 ![](images/LongCat.jpg)
 :::
