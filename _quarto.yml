@@ -1,5 +1,5 @@
 project:
-  title: "Palmer Penguins"
+  title: "ENCoDe LongCat E1"
   type: datapage
 
 website:
@@ -17,6 +17,6 @@ execute:
   error: false
 
 redivis:
-  user: datapages
-  dataset: palmerpenguins
-  table: penguins
+  user: sconte
+  dataset: LongCat
+  table: E1
