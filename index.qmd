@@ -6,9 +6,9 @@ description: |
 ---
 
 ::: {layout-ncol=2}
-![Artwork by \@allison_horst](images/lter_penguins.png)
+![](images/ENCoDe_Logo.png)
 
-![](images/culmen_depth.png)
+![](images/LongCat.jpg)
 :::
 
 {{< include _load-data.qmd >}}
