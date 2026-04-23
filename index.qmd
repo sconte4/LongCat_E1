@@ -1,4 +1,4 @@
-od---
+---
 title: "ENCoDe LongCat (E1)"
 subtitle: "Longitudinal study on face categorization "
 description: |
