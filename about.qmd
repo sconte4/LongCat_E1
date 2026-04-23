@@ -6,7 +6,7 @@ about:
   links:
     - icon: github
       text: GitHub
-      href: https://github.com/sconte4/LongCat_E1
+      href: https://github.com/sconte4/LongCat_E1/tree/main
     - icon: globe
       text: Lab website
       href: https://sites.google.com/binghamton.edu/encode/home
