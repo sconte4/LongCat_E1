@@ -9,11 +9,12 @@ config_file = FileAttachment("_config.yml").text()
 config = yaml.load(config_file)
 
 distinct_cutoff = 2
+distinct_cutoff_disc = 200
 
 disc_types = (['string', 'boolean'])
 disc_filter = (config?.categorical_vars)
   ? d => config.categorical_vars.includes(d.name)
-  : d => disc_types.includes(d.type) && d.numDistinct <= distinct_cutoff && d.numDistinct > 1
+  : d => disc_types.includes(d.type) && d.numDistinct <= distinct_cutoff_disc && d.numDistinct > 1
 disc_vars = vars.filter(disc_filter)
 disc_opts = new Map([['', null], ...disc_vars.map(d => [d.label ? d.label : d.name, d.name])])
 
