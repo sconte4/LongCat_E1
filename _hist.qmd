@@ -1,7 +1,7 @@
 ```{ojs}
 //| panel: input
 
-viewof x_var = Inputs.select(cont_opts, {value: Array.from(cont_opts.values())[3], label: "X axis"})
+viewof x_var = Inputs.select(cont_opts, {value: Array.from(cont_opts.values())[0], label: "X axis"})
 viewof y_var = Inputs.select(cont_opts, {value: Array.from(cont_opts.values())[1], label: "Y axis"})
 viewof color_var = Inputs.select(disc_opts, {value: Array.from(disc_opts.values())[1], label: "Color"})
 ```
