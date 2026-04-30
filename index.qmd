@@ -15,7 +15,7 @@ description: |
 
 {{< include _plot-prep.qmd >}}
 
-{{< include _scatter_hist.qmd >}}
+{{< include _hist.qmd >}}
 
 <!-- {{< include _scatter.qmd >}} -->
 
