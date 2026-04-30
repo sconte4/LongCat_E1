@@ -19,4 +19,4 @@ execute:
 redivis:
   user: sconte
   dataset: LongCat
-  table: E1
+  table: E1_sample
